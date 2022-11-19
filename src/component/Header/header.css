@@ -1,0 +1,17 @@
+.header{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 2; 
+    background-image: url(../Header/assets/bg-header.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.headerIcons{
+    height: 120px;
+    width: 120px;
+    color: #3575d3
+}
