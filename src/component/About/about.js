@@ -12,7 +12,7 @@ export default function about() {
             <div className="row text-black p-5">
                 <div className="col"></div>
                 <div className="col-6">
-                    <h1 className="text-center aboutMe">About Me</h1>
+                    <h1 className="text-center aboutMe">About Me from clone</h1>
                     <p className="text-center mt-2">
                         I’m a web designer/customization and digital marketer who enjoys assisting people in finding the best tools for their jobs. Since 2018, I’ve been designing and developing websites for clients all over the world.
                     </p>
