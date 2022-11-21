@@ -2,11 +2,12 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Header/header.css';
 
+
 export default function header() {
     return (
-
+     
         <div className='container-fluid' id='header'>
-            <div class="row header">
+            <div class="row header" id='home'>
                 <div
                     class="row text-center justify-content-md-center justify-content-around position-absolute top-50 start-50 translate-middle"
                 >
@@ -32,7 +33,9 @@ export default function header() {
                     </div>
                     <div class="col"></div>
                 </div>
+            
             </div>
+            
         </div>
     )
 }

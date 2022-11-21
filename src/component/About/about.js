@@ -6,13 +6,18 @@ import '../About/about.css';
 export default function about() {
     return (
         <div className="container-fluid about" id="about">
-            <div class="row" id="navbar">
-            {/* <i class="i-nav" onclick="goTo('header')"><a href="#" id="navTag">Home</a></i> */}
-            </div>
+                <ul className="navbar-nav">
+          <li className="nav-item">
+          <a className="nav-link js-scroll-trigger navTagList" href="#home">Home</a>
+            <a className="nav-link js-scroll-trigger navTagList" href="#about">About</a>
+            <a className="nav-link js-scroll-trigger navTagList" href="#project">Project</a>
+
+          </li>
+        </ul>
             <div className="row text-black p-5">
                 <div className="col"></div>
                 <div className="col-6">
-                    <h1 className="text-center aboutMe">About Me from clone</h1>
+                    <h1 className="text-center aboutMe">About Me</h1>
                     <p className="text-center mt-2">
                         I’m a web designer/customization and digital marketer who enjoys assisting people in finding the best tools for their jobs. Since 2018, I’ve been designing and developing websites for clients all over the world.
                     </p>
