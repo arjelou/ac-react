@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../About/about.css';
-// import imgjs from './asset/JS.png';
+
 
 export default function about() {
     return (

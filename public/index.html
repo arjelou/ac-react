@@ -24,6 +24,23 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <!-- Sendinblue Conversations {literal} -->
+    <script>
+      (function (d, w, c) {
+        w.SibConversationsID = "6237dd42155167581221e1b5";
+        w[c] =
+          w[c] ||
+          function () {
+            (w[c].q = w[c].q || []).push(arguments);
+          };
+        var s = d.createElement("script");
+        s.async = true;
+        s.src =
+          "https://conversations-widget.sendinblue.com/sib-conversations.js";
+        if (d.head) d.head.appendChild(s);
+      })(document, window, "SibConversations");
+    </script>
+    <!-- /Sendinblue Conversations {/literal} -->
     <title>AC - Portfolio</title>
   </head>
   <body>

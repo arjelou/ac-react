@@ -1,0 +1,22 @@
+.contact{
+    background-color: rgba(211, 219, 211, 0.377);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contactHero{
+    color: rgb(0, 0, 0);
+    font-size: 120px;
+}
+.btnScheduleDemo{
+    margin-top: 80px;
+}
+.btnSubscriberEmail{
+     margin-top: 20px;
+}
+.contact-link a{
+    text-decoration: none;
+    color: black;
+}
