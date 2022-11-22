@@ -1,11 +1,10 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Contact/contact.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fortawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faMap } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
-
 
 
 export default function contact() {
@@ -38,7 +37,7 @@ export default function contact() {
                         </div>
                         <div className="col">
                         {ffacontact}
-                          <i className="fa fa-phone"></i>
+                          <i></i>
                         <p>(+63) 955-770-2539</p>
                         </div>
                       </div>
